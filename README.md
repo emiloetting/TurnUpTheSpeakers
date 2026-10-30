@@ -1,0 +1,5 @@
+# TurnUpTheSpeakers
+A repository for keeping your Gen. 3 KRK Rokit speakers active even if your audio input volume is low.
+
+## About
+KRK Rokit speakers will automatically go into standby mode if the audio input stays below a certain threshold for a specific period of time. When playing audio at night, low volume listening is the only way possible if you want ot be respectful towards your neighbors, family, etc.. However, in these cases, the automatic switch into standby disables further audio Output at the current volume. The only way to reactivate your speakers is to bring the volume above that threshold, although a small time interval with high enough volume is sufficient. Hence, an audio input at a certain volume is required for a continuous listening experience. In order to achieve this, every x minutes an unaudible audio output (around 20 Hertz) is played. This neigher bothers your neighbors, nor does it audibly interfere with your regular audio Output. This is what this application provides.
