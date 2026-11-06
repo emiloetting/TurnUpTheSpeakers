@@ -11,12 +11,12 @@ This is what this application provides.
 
 
 ## Getting Started
-1️⃣ **Clone Repository**  
+**1. Clone Repository**  
 ``` 
 git clone https://github.com/emiloetting/TurnUpTheSpeakers
 ```  
 
-2️⃣ **Setup Environment**  
+**2: Setup Environment**  
 I highly recommend using [uv](https://docs.astral.sh/uv/) for managing your virtual environment.  
 This will automatically create a virtual environment and install the required python version as well as sourcecode dependancies.  
 Using uv, setup is fairly simple.    
@@ -26,11 +26,11 @@ uv sync
 ```
 
 > [!Important]
-> This project requires an installation of PortAudio.
-> Currently, this dependancy is automatically installed on Windows and MacOS.
+> This project requires an installation of PortAudio.  
+> Currently, this dependancy is automatically installed on Windows and MacOS.  
 > If you run this on a different OS, ensure PortAudio is installed
 
-3️⃣ **Start App**  
+**3: Start App**  
 Finally, all you have to do is start the application by running the main skript.
 ```
 uv run main.py
